@@ -1,0 +1,112 @@
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6; }
+
+.navbar h3 {
+  background: linear-gradient(to right, #1384C2, #EE2A68);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url(../img/carousel-1.jpg);
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url(../img/carousel-2.jpg);
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url(../img/carousel-3.jpg);
+  background-size: cover; }
+
+#home-carousel .dark-overlay:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); }
+
+#gallery img {
+  min-height: 300px; }
+
+#gallery h5 {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 14px;
+  max-width: 500px;
+  color: #969696;
+  position: relative; }
+
+#gallery h3 {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 14px;
+  max-width: 300px;
+  color: #969696;
+  position: relative; }
+
+#pen-bg {
+  background: url(../img/bg-pen.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative; }
+  #pen-bg .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.carousel-customer-1 {
+  background: url(../img/customers/customer-1.jpg);
+  background-size: cover; }
+
+.carousel-customer-2 {
+  background: url(../img/customers/customer-2.jpg);
+  background-size: cover; }
+
+.carousel-customer-3 {
+  background: url(../img/customers/customer-3.jpg);
+  background-size: cover; }
+
+.carousel-customer-4 {
+  background: url(../img/customers/customer-4.jpg);
+  background-size: cover; }
+
+.carousel-customer-5 {
+  background: url(../img/customers/customer-5.jpg);
+  background-size: cover; }
+
+.carousel-customer-6 {
+  background: url(../img/customers/customer-6.jpg);
+  background-size: cover; }
+
+.carousel-customer-7 {
+  background: url(../img/customers/customer-7.jpg);
+  background-size: cover; }
+
+.fa {
+  font-size: 50px; }
+
+@media (min-width: 320px) {
+  #products h3 {
+    font-size: 1.5rem !important; }
+  #about h3 {
+    font-size: 1.5rem !important; } }
+
+@media (min-width: 575px) {
+  #btn-resize {
+    display: inline !important; } }
+
+@media (min-width: 1100px) {
+  #gallery .img-fluid {
+    height: 200px;
+    width: 350px; } }
